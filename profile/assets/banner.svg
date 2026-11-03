@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="skyrow.labs — the company mark beside the name">
+  <title>skyrow.labs</title>
+  <defs>
+    <clipPath id="hero-clip"><rect width="1000" height="300" rx="18"/></clipPath>
+    <radialGradient id="glow-sky" cx="0.16" cy="0.42" r="0.6"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.22"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow-sky-2" cx="0.88" cy="0.85" r="0.5"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.12"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#e8edf4" fill-opacity="0.07"/></pattern>
+    <clipPath id="l-draw"><rect x="0" y="0" width="96" height="96"><animate attributeName="height" values="0;0;96" keyTimes="0;0.15;1" dur="1.3s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <g clip-path="url(#hero-clip)">
+    <rect width="1000" height="300" fill="#05090e"/>
+    <rect width="1000" height="300" fill="url(#glow-sky)"/>
+    <rect width="1000" height="300" fill="url(#glow-sky-2)"/>
+    <rect width="1000" height="300" fill="url(#dots)"/>
+    <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="none" stroke="#1c2633"/>
+    <!-- the skyrow.labs mark, as on skyrowlabs.com: an L corner holding an s -->
+    <g transform="translate(36 50) scale(2.1)">
+      <g clip-path="url(#l-draw)">
+        <path d="M4 4h17v71h71v12l-5 5h-78l-5-5z" fill="#38bdf8" stroke="#1e6384" stroke-width="1.6"/>
+      </g>
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.7;1" dur="1.8s" fill="freeze"/>
+        <path transform="translate(31 8)" d="M4 0H55V14H14V23H49L53 27V56L49 60H0V46H39V37H4L0 33V4Z" fill="#e8edf4" stroke="#565b60" stroke-width="1.6" paint-order="stroke"/>
+      </g>
+    </g>
+    <text x="284" y="84" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.8" fill="#38bdf8">SKYROWLABS.COM · THE PROJECTS</text>
+    <text x="280" y="172" font-family="'Space Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="80" font-weight="700" letter-spacing="-1.8" fill="#e8edf4">skyrow<tspan fill="#38bdf8">.labs</tspan></text>
+    <!-- the six project accents, in the site's card order -->
+    <g transform="translate(284 206)">
+      <rect x="0"   width="56" height="6" rx="3" fill="#38bdf8"/>
+      <rect x="66"  width="56" height="6" rx="3" fill="#4ade80"/>
+      <rect x="132" width="56" height="6" rx="3" fill="#fb923c"/>
+      <rect x="198" width="56" height="6" rx="3" fill="#d4cb3a"/>
+      <rect x="264" width="56" height="6" rx="3" fill="#a78bfa"/>
+      <rect x="330" width="56" height="6" rx="3" fill="#c3b391"/>
+    </g>
+  </g>
+</svg>

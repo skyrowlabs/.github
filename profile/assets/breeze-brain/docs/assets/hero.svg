@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="breeze.brain — a wind turbine and a sun feeding power into a GPU rack, beside the wordmark">
+  <title>breeze.brain — a renewable-powered GPU rental facility</title>
+  <defs>
+    <clipPath id="hero-clip"><rect width="1000" height="300" rx="18"/></clipPath>
+    <radialGradient id="glow-green" cx="0.16" cy="0.35" r="0.6"><stop offset="0" stop-color="#4ade80" stop-opacity="0.20"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow-sky" cx="0.88" cy="0.85" r="0.55"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.13"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="sun-halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#facc15" stop-opacity="0.35"/><stop offset="1" stop-color="#facc15" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#e8edf4" fill-opacity="0.07"/></pattern>
+    <filter id="bb-glow" filterUnits="userSpaceOnUse" x="0" y="230" width="280" height="40"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g clip-path="url(#hero-clip)">
+    <rect width="1000" height="300" fill="#05090e"/>
+    <rect width="1000" height="300" fill="url(#glow-green)"/>
+    <rect width="1000" height="300" fill="url(#glow-sky)"/>
+    <rect width="1000" height="300" fill="url(#dots)"/>
+
+    <!-- the mark: sun + solar panel, wind turbine, a power line into a GPU rack -->
+    <g id="mark">
+      <!-- ground -->
+      <path d="M 18,262 H 258" stroke="#1c2633" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- sun -->
+      <circle cx="52" cy="66" r="40" fill="url(#sun-halo)"/>
+      <circle cx="52" cy="66" r="13" fill="#facc15" fill-opacity="0.9"/>
+      <g stroke="#facc15" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round">
+        <path d="M 52,42 V 36 M 52,90 V 96 M 28,66 H 22 M 76,66 H 82 M 35,49 L 31,45 M 69,83 L 73,87 M 69,49 L 73,45 M 35,83 L 31,87"/>
+        <animate attributeName="stroke-opacity" values="0.7;0.35;0.7" dur="4s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- solar panel on a post -->
+      <path d="M 50,248 V 262" stroke="#344050" stroke-width="3" stroke-linecap="round"/>
+      <g transform="translate(50,240) rotate(-18)">
+        <rect x="-30" y="-9" width="60" height="18" rx="2" fill="#0b1622" stroke="#4ade80" stroke-opacity="0.75" stroke-width="1.5"/>
+        <path d="M -15,-9 V 9 M 0,-9 V 9 M 15,-9 V 9 M -30,0 H 30" stroke="#4ade80" stroke-opacity="0.35" stroke-width="1"/>
+      </g>
+
+      <!-- wind turbine: tapered tower, nacelle, three rotating blades -->
+      <path d="M 104,262 L 108,122 L 112,122 L 116,262 Z" fill="#a9b6c6" fill-opacity="0.85"/>
+      <path d="M 98,262 L 104,248 M 122,262 L 116,248" stroke="#344050" stroke-width="1.5" stroke-linecap="round"/>
+      <rect x="103" y="113" width="17" height="9" rx="3" fill="#b6c2d1"/>
+      <g transform="translate(110,117)">
+        <g>
+          <g fill="#e8edf4" fill-opacity="0.92">
+            <path d="M -2,0 C -3,-22 -1,-46 0,-62 C 2,-46 4,-22 2,0 Z"/>
+            <path d="M -2,0 C -3,-22 -1,-46 0,-62 C 2,-46 4,-22 2,0 Z" transform="rotate(120)"/>
+            <path d="M -2,0 C -3,-22 -1,-46 0,-62 C 2,-46 4,-22 2,0 Z" transform="rotate(240)"/>
+          </g>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+        </g>
+        <circle r="5" fill="#05090e" stroke="#4ade80" stroke-width="2"/>
+      </g>
+
+      <!-- power line: panel and turbine base feed the rack -->
+      <g fill="none" stroke="#4ade80" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#bb-glow)">
+        <path d="M 76,252 H 104 M 116,252 H 168" stroke-opacity="0.85" stroke-dasharray="6 7">
+          <animate attributeName="stroke-dashoffset" from="26" to="0" dur="1.2s" repeatCount="indefinite"/>
+        </path>
+      </g>
+
+      <!-- GPU rack -->
+      <rect x="168" y="128" width="84" height="134" rx="6" fill="#0a121b" stroke="#344050" stroke-width="2"/>
+      <rect x="168" y="128" width="84" height="12" rx="6" fill="#1c2633"/>
+      <g id="sleds">
+        <g transform="translate(176,148)">
+          <rect width="68" height="18" rx="3" fill="#0f1a26" stroke="#1c2633"/>
+          <path d="M 8,5 H 42 M 8,9 H 42 M 8,13 H 42" stroke="#344050" stroke-width="1.5"/>
+          <circle cx="52" cy="9" r="2.5" fill="#4ade80"><animate attributeName="fill-opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+          <circle cx="60" cy="9" r="2.5" fill="#4ade80" fill-opacity="0.55"/>
+        </g>
+        <g transform="translate(176,172)">
+          <rect width="68" height="18" rx="3" fill="#0f1a26" stroke="#1c2633"/>
+          <path d="M 8,5 H 42 M 8,9 H 42 M 8,13 H 42" stroke="#344050" stroke-width="1.5"/>
+          <circle cx="52" cy="9" r="2.5" fill="#4ade80"><animate attributeName="fill-opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite"/></circle>
+          <circle cx="60" cy="9" r="2.5" fill="#4ade80" fill-opacity="0.55"/>
+        </g>
+        <g transform="translate(176,196)">
+          <rect width="68" height="18" rx="3" fill="#0f1a26" stroke="#1c2633"/>
+          <path d="M 8,5 H 42 M 8,9 H 42 M 8,13 H 42" stroke="#344050" stroke-width="1.5"/>
+          <circle cx="52" cy="9" r="2.5" fill="#4ade80"><animate attributeName="fill-opacity" values="1;0.4;1" dur="1.3s" repeatCount="indefinite"/></circle>
+          <circle cx="60" cy="9" r="2.5" fill="#4ade80" fill-opacity="0.55"/>
+        </g>
+        <g transform="translate(176,220)">
+          <rect width="68" height="18" rx="3" fill="#0f1a26" stroke="#1c2633"/>
+          <path d="M 8,5 H 42 M 8,9 H 42 M 8,13 H 42" stroke="#344050" stroke-width="1.5"/>
+          <circle cx="52" cy="9" r="2.5" fill="#4ade80"><animate attributeName="fill-opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/></circle>
+          <circle cx="60" cy="9" r="2.5" fill="#4ade80" fill-opacity="0.55"/>
+        </g>
+      </g>
+      <path d="M 180,248 H 240" stroke="#1c2633" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <text x="284" y="84" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.8" fill="#4ade80">SKYROW.LABS · GPU RENTAL FACILITY</text>
+    <text x="280" y="172" font-family="'Space Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="88" font-weight="700" letter-spacing="-1.8" fill="#e8edf4">breeze.brain</text>
+    <text font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#b6c2d1">
+      <tspan x="284" y="214">GPUs for rent, run on the grid and offset by wind and sun.</tspan>
+      <tspan x="284" y="242">The plan for the facility, and the stack that runs it.</tspan>
+    </text>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="none" stroke="#1c2633"/>
+</svg>

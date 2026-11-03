@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="mind.head — a head in profile with a graph of memory nodes inside it, beside the project name">
+  <title>mind.head — a self-hosted personal AI brain</title>
+  <defs>
+    <clipPath id="hero-clip"><rect width="1000" height="300" rx="18"/></clipPath>
+    <radialGradient id="glow-mark" cx="0.15" cy="0.4" r="0.55"><stop offset="0" stop-color="#d4cb3a" stop-opacity="0.20"/><stop offset="1" stop-color="#d4cb3a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow-far" cx="0.88" cy="0.85" r="0.5"><stop offset="0" stop-color="#d4cb3a" stop-opacity="0.12"/><stop offset="1" stop-color="#d4cb3a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="head-fill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4cb3a" stop-opacity="0.10"/><stop offset="1" stop-color="#d4cb3a" stop-opacity="0.02"/></linearGradient>
+    <linearGradient id="neck-fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.72" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <mask id="fade"><rect width="300" height="300" fill="url(#neck-fade)"/></mask>
+    <filter id="mh-glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#e8edf4" fill-opacity="0.07"/></pattern>
+  </defs>
+  <g clip-path="url(#hero-clip)">
+    <rect width="1000" height="300" fill="#05090e"/>
+    <rect width="1000" height="300" fill="url(#glow-mark)"/>
+    <rect width="1000" height="300" fill="url(#glow-far)"/>
+    <rect width="1000" height="300" fill="url(#dots)"/>
+
+    <!-- the mark: a head in profile, facing the wordmark, holding a subject graph -->
+    <g transform="translate(8,4)">
+      <path mask="url(#fade)" d="M100 296C102 262 100 240 92 226C60 207 46 172 48 134C50 72 100 36 152 38C200 40 222 76 222 108C222 118 226 124 232 134L246 156C248 160 245 163 240 163L230 164C233 170 234 174 230 177C234 181 233 186 228 189C230 196 228 204 222 208C214 214 198 214 188 214C182 232 180 262 182 296" fill="url(#head-fill)" stroke="#d4cb3a" stroke-opacity="0.85" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- edges: hub to every subject, then the cross-links between them -->
+      <g fill="none" stroke="#d4cb3a" stroke-linecap="round">
+        <path stroke-opacity="0.55" stroke-width="1.6" d="M142 118L100 88M142 118L150 70M142 118L194 96M142 118L88 142M142 118L122 172M142 118L182 152"/>
+        <path stroke-opacity="0.28" stroke-width="1.2" d="M100 88L150 70L194 96L206 124L182 152L122 172L88 142L100 88M194 96L182 152"/>
+      </g>
+
+      <!-- loose memories not yet linked -->
+      <g fill="#d4cb3a" fill-opacity="0.45">
+        <circle cx="114" cy="122" r="1.8"/><circle cx="172" cy="104" r="1.8"/><circle cx="156" cy="190" r="1.8"/><circle cx="78" cy="112" r="1.6"/><circle cx="128" cy="52" r="1.6"/>
+      </g>
+
+      <!-- subjects -->
+      <g fill="#05090e" stroke="#d4cb3a" stroke-width="2">
+        <circle cx="100" cy="88" r="5"/>
+        <circle cx="150" cy="70" r="5.5"/>
+        <circle cx="194" cy="96" r="5"/>
+        <circle cx="206" cy="124" r="3.5"/>
+        <circle cx="88" cy="142" r="5"/>
+        <circle cx="122" cy="172" r="5"/>
+        <circle cx="182" cy="152" r="5.5"/>
+      </g>
+      <g fill="#d4cb3a">
+        <circle cx="150" cy="70" r="2"><animate attributeName="fill-opacity" values="1;1;0.25;1;1" keyTimes="0;0.15;0.25;0.35;1" dur="5.6s" repeatCount="indefinite"/></circle>
+        <circle cx="182" cy="152" r="2"><animate attributeName="fill-opacity" values="1;1;0.25;1;1" keyTimes="0;0.45;0.55;0.65;1" dur="5.6s" repeatCount="indefinite"/></circle>
+        <circle cx="88" cy="142" r="1.8"><animate attributeName="fill-opacity" values="1;1;0.25;1;1" keyTimes="0;0.72;0.82;0.92;1" dur="5.6s" repeatCount="indefinite"/></circle>
+      </g>
+
+      <!-- the hub: what the brain is answering from right now -->
+      <circle cx="142" cy="118" r="11" fill="none" stroke="#d4cb3a" stroke-opacity="0.35" stroke-width="1.2">
+        <animate attributeName="r" values="11;17;11" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.35;0;0.35" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="142" cy="118" r="7" fill="#d4cb3a" filter="url(#mh-glow)"/>
+    </g>
+
+    <text x="284" y="84" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.8" fill="#d4cb3a">SKYROW.LABS · SELF-HOSTED PERSONAL AI BRAIN</text>
+    <text x="280" y="172" font-family="'Space Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="-1.8" fill="#e8edf4">mind.head</text>
+    <text font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#b6c2d1">
+      <tspan x="284" y="214">The persistent working memory between you and frontier</tspan>
+      <tspan x="284" y="242">models: your subjects and notes, on hardware you control.</tspan>
+    </text>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="none" stroke="#1c2633"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="jam.sense: a live microphone broadcasting to a crowd of fans, beside the wordmark">
+  <title>jam.sense — an independent platform for original music, connecting artists with fans</title>
+  <defs>
+    <clipPath id="hero-clip"><rect width="1000" height="300" rx="18"/></clipPath>
+    <radialGradient id="glow-sky" cx="0.16" cy="0.4" r="0.6"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.22"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow-sky-low" cx="0.88" cy="0.9" r="0.5"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.12"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#e8edf4" fill-opacity="0.07"/></pattern>
+    <filter id="js-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g clip-path="url(#hero-clip)">
+    <rect width="1000" height="300" fill="#05090e"/>
+    <rect width="1000" height="300" fill="url(#glow-sky)"/>
+    <rect width="1000" height="300" fill="url(#glow-sky-low)"/>
+    <rect width="1000" height="300" fill="url(#dots)"/>
+    <g id="mark">
+      <g fill="none" stroke="#38bdf8" stroke-linecap="round">
+        <path d="M 95,85 A 52 52 0 0 0 95,155" stroke-width="2.5" stroke-opacity="0.75"/>
+        <path d="M 175,85 A 52 52 0 0 1 175,155" stroke-width="2.5" stroke-opacity="0.75"/>
+        <path d="M 75,66 A 80 80 0 0 0 75,174" stroke-width="2" stroke-opacity="0.4"/>
+        <path d="M 195,66 A 80 80 0 0 1 195,174" stroke-width="2" stroke-opacity="0.4"/>
+        <path d="M 55,48 A 108 108 0 0 0 55,192" stroke-width="1.5" stroke-opacity="0.18"/>
+        <path d="M 215,48 A 108 108 0 0 1 215,192" stroke-width="1.5" stroke-opacity="0.18"/>
+        <animate attributeName="opacity" values="1;0.55;1" dur="2.4s" repeatCount="indefinite"/>
+      </g>
+      <g filter="url(#js-glow)">
+        <rect x="121" y="80" width="28" height="46" rx="14" fill="#0b1016" stroke="#38bdf8" stroke-width="2.5"/>
+        <path d="M 126,94 H 144 M 126,103 H 144 M 126,112 H 144" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.5"/>
+        <path d="M 111,112 a 24 24 0 0 0 48 0 M 135,136 V 176 M 117,178 H 153" fill="none" stroke="#e8edf4" stroke-opacity="0.85" stroke-width="2.5" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(110,30)">
+        <rect width="50" height="20" rx="10" fill="#f4665b" fill-opacity="0.16" stroke="#f4665b" stroke-opacity="0.6"/>
+        <circle cx="12" cy="10" r="3.5" fill="#f4665b"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+        <text x="20" y="14.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#f4665b">LIVE</text>
+      </g>
+      <g fill="#38bdf8" font-family="'Segoe UI Symbol', 'DejaVu Sans', sans-serif" font-size="16">
+        <text x="70" y="214" opacity="0.8">♪<animate attributeName="opacity" values="0;0.9;0" dur="3s" repeatCount="indefinite"/></text>
+        <text x="190" y="214" opacity="0.8">♫<animate attributeName="opacity" values="0;0.9;0" dur="3s" begin="1s" repeatCount="indefinite"/></text>
+        <text x="130" y="222" opacity="0.6" fill="#f0abfc">♥<animate attributeName="opacity" values="0;0.9;0" dur="3s" begin="2s" repeatCount="indefinite"/></text>
+      </g>
+      <g fill="#b6c2d1">
+        <g transform="translate(40,232)" opacity="0.55"><circle cx="0" cy="-9" r="6"/><path d="M-11 9a11 9 0 0 1 22 0z"/></g><g transform="translate(82,250)" opacity="0.8"><circle cx="0" cy="-9" r="6"/><path d="M-11 9a11 9 0 0 1 22 0z"/></g><g transform="translate(135,258)" opacity="1"><circle cx="0" cy="-9" r="6"/><path d="M-11 9a11 9 0 0 1 22 0z"/></g><g transform="translate(188,250)" opacity="0.8"><circle cx="0" cy="-9" r="6"/><path d="M-11 9a11 9 0 0 1 22 0z"/></g><g transform="translate(230,232)" opacity="0.55"><circle cx="0" cy="-9" r="6"/><path d="M-11 9a11 9 0 0 1 22 0z"/></g><g transform="translate(28,170)" opacity="0.35"><circle cx="0" cy="-9" r="6"/><path d="M-11 9a11 9 0 0 1 22 0z"/></g><g transform="translate(242,170)" opacity="0.35"><circle cx="0" cy="-9" r="6"/><path d="M-11 9a11 9 0 0 1 22 0z"/></g>
+      </g>
+    </g>
+    <text x="284" y="84" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.8" fill="#38bdf8">SKYROW.LABS · ORIGINAL MUSIC, LIVE</text>
+    <text x="280" y="172" font-family="'Space Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="-1.8" fill="#e8edf4">jam.sense</text>
+    <text font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#b6c2d1">
+      <tspan x="284" y="214">An independent platform for original music, connecting</tspan>
+      <tspan x="284" y="242">artists with fans who seek new and live music.</tspan>
+    </text>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="none" stroke="#1c2633"/>
+</svg>
