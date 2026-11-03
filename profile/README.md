@@ -57,15 +57,6 @@ A **platform for independent musicians** to build their brand, connect with fans
   <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/breeze-brain/docs/assets/badges/plan.svg" alt="plan">
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/breeze-brain/docs/assets/badges/gate-manifest.svg" alt="manifest">
-  <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/breeze-brain/docs/assets/badges/gate-index.svg" alt="index">
-  <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/breeze-brain/docs/assets/badges/gate-links.svg" alt="links">
-  <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/breeze-brain/docs/assets/badges/gate-refs.svg" alt="refs">
-  <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/breeze-brain/docs/assets/badges/gate-mermaid.svg" alt="mermaid">
-  <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/breeze-brain/docs/assets/badges/gate-canon.svg" alt="canon">
-</p>
-
 <div align="center">
 
 **<!-- copy:bb.tagline -->Wind powered · Air cooled · Zero water<!-- /copy -->**
