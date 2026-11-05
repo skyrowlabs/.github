@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166.1" height="20" role="img" aria-label="plan revision: October 2026">
-  <title>plan revision: October 2026</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="178.8" height="20" role="img" aria-label="plan revision: November 2026">
+  <title>plan revision: November 2026</title>
   <linearGradient id="s" x2="0" y2="100%">
     <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
     <stop offset="1" stop-opacity=".1"/>
   </linearGradient>
-  <clipPath id="r"><rect width="166.1" height="20" rx="3" fill="#fff"/></clipPath>
+  <clipPath id="r"><rect width="178.8" height="20" rx="3" fill="#fff"/></clipPath>
   <g clip-path="url(#r)">
     <rect width="80.8" height="20" fill="#555"/>
-    <rect x="80.8" width="85.3" height="20" fill="#007ec6"/>
-    <rect width="166.1" height="20" fill="url(#s)"/>
+    <rect x="80.8" width="98.0" height="20" fill="#007ec6"/>
+    <rect width="178.8" height="20" fill="url(#s)"/>
   </g>
   <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
     <text aria-hidden="true" x="404" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="688">plan revision</text>
     <text x="404" y="140" transform="scale(.1)" textLength="688">plan revision</text>
-    <text aria-hidden="true" x="1234" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="733">October 2026</text>
-    <text x="1234" y="140" transform="scale(.1)" textLength="733">October 2026</text>
+    <text aria-hidden="true" x="1298" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="860">November 2026</text>
+    <text x="1298" y="140" transform="scale(.1)" textLength="860">November 2026</text>
   </g>
 </svg>

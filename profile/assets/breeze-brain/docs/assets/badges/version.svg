@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.2" height="20" role="img" aria-label="version: v0.2">
-  <title>version: v0.2</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96.5" height="20" role="img" aria-label="version: v0.3.0">
+  <title>version: v0.3.0</title>
   <linearGradient id="s" x2="0" y2="100%">
     <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
     <stop offset="1" stop-opacity=".1"/>
   </linearGradient>
-  <clipPath id="r"><rect width="86.2" height="20" rx="3" fill="#fff"/></clipPath>
+  <clipPath id="r"><rect width="96.5" height="20" rx="3" fill="#fff"/></clipPath>
   <g clip-path="url(#r)">
     <rect width="51.1" height="20" fill="#555"/>
-    <rect x="51.1" width="35.1" height="20" fill="#007ec6"/>
-    <rect width="86.2" height="20" fill="url(#s)"/>
+    <rect x="51.1" width="45.4" height="20" fill="#007ec6"/>
+    <rect width="96.5" height="20" fill="url(#s)"/>
   </g>
   <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
     <text aria-hidden="true" x="256" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="391">version</text>
     <text x="256" y="140" transform="scale(.1)" textLength="391">version</text>
-    <text aria-hidden="true" x="686" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="231">v0.2</text>
-    <text x="686" y="140" transform="scale(.1)" textLength="231">v0.2</text>
+    <text aria-hidden="true" x="738" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="334">v0.3.0</text>
+    <text x="738" y="140" transform="scale(.1)" textLength="334">v0.3.0</text>
   </g>
 </svg>
