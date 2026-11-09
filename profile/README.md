@@ -55,6 +55,7 @@ A **platform for independent musicians** to build their brand, connect with fans
   <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/breeze-brain/docs/assets/badges/revision.svg" alt="plan revision">
   <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/breeze-brain/docs/assets/badges/docs.svg" alt="planning docs">
   <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/breeze-brain/docs/assets/badges/plan.svg" alt="plan">
+  <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/breeze-brain/docs/assets/skeletor-version.svg" alt="skeletor version">
 </p>
 
 <div align="center">
@@ -77,6 +78,7 @@ A **low footprint, green compute and inference cluster**, powered by alternative
   <img src="https://img.shields.io/badge/repo-private-7a8fa8?labelColor=1c2633" alt="repo: private">
   <img src="https://img.shields.io/badge/python-3.14%2B-fb923c?labelColor=1c2633" alt="python 3.14+">
   <img src="https://img.shields.io/badge/status-mid--rebuild%20to%20v2-7a8fa8?labelColor=1c2633" alt="status: mid-rebuild to v2">
+  <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/stash-flow/docs/assets/skeletor-version.svg" alt="skeletor version">
 </p>
 
 <div align="center">
@@ -99,6 +101,7 @@ A **personal intelligence platform** — you choose what you track, and nothing 
   <img src="https://img.shields.io/badge/repo-private-7a8fa8?labelColor=1c2633" alt="repo: private">
   <img src="https://img.shields.io/badge/python-3.11%2B-d4cb3a?labelColor=1c2633" alt="python 3.11+">
   <img src="https://img.shields.io/badge/stays%20on-your%20hardware-d4cb3a?labelColor=1c2633" alt="stays on your hardware">
+  <img src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/mind-head/docs/assets/skeletor-version.svg" alt="skeletor version">
 </p>
 
 <div align="center">
@@ -122,6 +125,7 @@ A **personal AI brain** — self-hosted, fine-tuned on your data, on transparent
   <a href="https://github.com/skyrowlabs/sky-boss/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/skyrowlabs/sky-boss?sort=semver&label=version&labelColor=1c2633&color=38bdf8"></a>
   <a href="https://github.com/skyrowlabs/sky-boss/actions/workflows/ci.yml"><img alt="Python 3.12 to 3.14" src="https://img.shields.io/badge/python-3.12%E2%80%933.14-4ade80?labelColor=1c2633"></a>
   <a href="https://github.com/skyrowlabs/sky-boss/blob/develop/LICENSE"><img alt="MIT licence" src="https://img.shields.io/github/license/skyrowlabs/sky-boss?labelColor=1c2633&color=7a8fa8"></a>
+  <img alt="skeletor version" src="https://raw.githubusercontent.com/skyrowlabs/.github/main/profile/assets/sky-boss/docs/assets/skeletor-version.svg">
 </p>
 
 <div align="center">
